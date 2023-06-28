@@ -1,0 +1,186 @@
+/*
+	Please add your custom CSS in this file. The hex codes for the colours are below.
+
+	Main text color (grey): #838383
+	Dark grey for the speech bubble at the top: #424242
+	Grey border colour for the main content area, and the buttons at the bottom: #DCDCDC
+	Orange colour for the highlighted "only 3 days left" text and the progress bar: #F15E33
+	The background for the part of the progress bar that isn't filled in: #FAFAFA
+	Buttons at the bottom: #838383
+	Green button: #00BE1C
+	Green button border: #01B21A
+	"Why give 50" link: #25A5D8
+*/
+
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
+
+/* Fonts */
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container {
+  margin: 2em auto;
+  max-width: 650px;
+  text-align: center;
+}
+
+/* COLORS: 
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
+
+#wrapper {
+  margin: 0 auto;
+  width: 260px;
+}
+
+.borders {
+  border: 1px solid #eaeaea;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.03) inset;
+}
+
+#top-box {
+  background: #424242;
+  color: white;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: .8rem;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+#top-box span {
+  font-weight: bold;
+}
+
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 7px solid #424242;
+  margin-left: 85%;
+  margin-bottom: 3px;
+}
+
+#loading-bar {
+  height: 12px;
+}
+
+#loading-bar #loading-percentage {
+  width: 75%;
+  background: #EF5F3C;
+  height: 11px;
+}
+
+#middle-section {
+  padding: 20px;
+  color: #777;
+  border-top: none;
+}
+
+h2,
+p {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: unset;
+}
+
+h2 span {
+  color: #EF5F3C;
+  font-weight: bold;
+}
+
+#middle-section p {
+  font-size: 0.75rem;
+}
+
+#middle-section p span {
+  font-weight: bold;
+}
+
+form {
+  height: 45px;
+}
+
+#span-money-input,
+#give-now-button {
+  width: 45%;
+  height: 45px;
+  border: none;
+  margin: 0;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+#span-money-input {
+  padding: 1px 0 0 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 1px solid #eaeaea;
+  margin-right: 8%;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05) inset;
+  text-align: left;
+}
+
+#money-input {
+  border: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  width: 90%;
+  margin: 0;
+  height: 43px;
+  padding: 5px;
+}
+
+#give-now-button {
+  background: #1CBC2C;
+  color: #fff;
+  font-size: 0.9rem;
+  border: 1px solid #38ad39;
+  border-bottom-width: 2px;
+}
+
+#middle-section a {
+  display: block;
+  color: #20A1D4;
+  font-size: .7rem;
+  text-align: left;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.bottom-buttons {
+  color: #777;
+  width: 47%;
+  display: inline-block;
+  font-size: .8rem;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #dcdcdc;
+  border-bottom-width: 2px;
+  border-radius: 3px;
+  padding: 5px 0;
+  margin-top: 10px;
+}
+
+.left-button {
+  margin-right: 4%;
+}
+
+
